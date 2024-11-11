@@ -16,3 +16,33 @@ a {
 a:hover {
     border: 2px solid black;
 }
+
+.Question{
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 2px
+    
+}
+
+.options a {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 14px;
+}
+
+.options a:hover {
+    background-color: black;
+    color: white;
+}
